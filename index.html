@@ -20,12 +20,12 @@
     <label class="close-menu-label" for="close-menu" title="close menu"></label>
     <aside class="menu white-bg"> 
         <div id="home" class="main-content menu-content">
-            <h1>
+            <h1 onclick="getElementById('close-menu').checked= false;">
                 <a href="#home">Logo</a>
             </h1>
             <nav>
                 <!--Inicio Menu Links-->
-                <ul>
+                <ul onclick="getElementById('close-menu').checked= false;">
                     <li><a href="#home">intro</a></li>
                     <li><a href="#top3">top 3</a></li>
                     <li><a href="#grid-1">gride one</a></li>
@@ -791,6 +791,8 @@
     <footer id="footer" class="footer white-bg">
         <p><a href="nofollow" target="_blank">Feito com <span>♥</span> por @grasbiel</a></p>
     </footer>
+
+    <a class="back-to-top" href="#">➤</a>
 </body>
 
 </html>
